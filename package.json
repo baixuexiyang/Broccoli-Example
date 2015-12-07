@@ -1,0 +1,28 @@
+{
+  "name": "broccoli",
+  "version": "1.0.0",
+  "description": "js/css complie contact",
+  "main": "index.js",
+  "scripts": {
+    "build": "broccoli build dist",
+    "test": "test"
+  },
+  "author": "ganzw@guahao.com",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^5.0.0",
+    "broccoli": "^0.16.2",
+    "broccoli-babel-transpiler": "5.3.0",
+    "broccoli-concat": "^0.0.13",
+    "broccoli-funnel": "^0.2.3",
+    "broccoli-merge-trees": "^0.2.1",
+    "broccoli-less": "^2.0.0",
+    "broccoli-coffee": "^0.5.0",
+    "broccoli-sass": "0.5.0",
+    "broccoli-watchify": "0.2.0",
+    "chai": "^2.2.0",
+    "glob": "^5.0.3",
+    "mocha": "^2.2.4",
+    "mocha-jshint": "^1.0.0"
+  }
+}
